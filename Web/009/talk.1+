@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小宝宝一定会愿意~(^_^)', function() {
+        modal('果然是个色狼!', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,20 +9,20 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal('不出击？', A);
     });
 });
 
 function A() {
-    modal('我爱你！', B);
+    modal('还不出击?', B);
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('再给你最后一次机会', C);
 }
 
 function C() {
-    modal('请宝宝不要拒绝我嘛~', D);
+    modal('还是不出击?', D);
 }
 
 function D() {
@@ -30,38 +30,38 @@ function D() {
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我的!!!', F);
+    modal('这辈子都只能在我这里出击', F);
 }
 
 function F() {
-    modal('跟我走吧宝宝~', G);
+    modal('跟我走吧', G);
 }
 
 function G() {
-    modal('房产证上写你的名字', H);
+    modal('介绍技师给你认识', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('给你加技师微信', I);
 }
  function I() {
-    modal('我会买很多东西给你', J)
+    modal('我让技师嫁给你', J)
 }
 function I() {
-    modal('会好好疼你', J)
+    modal('还不行?', J)
 }
 function I() {
-    modal('会哄你睡觉', J)
+    modal('一辈子单身吧', J)
 }
 function I() {
-    modal('会唱歌给你听', J)
+    modal('滚吧', J)
 }
 function I() {
     modal('爱你。么么哒！', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('你终于答应出击啦', function() {
         fireworks();
     });
 }
